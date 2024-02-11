@@ -19,37 +19,42 @@
                     fontFamily: {
                         inter: ['Indie Flower', 'cursive']    
                     },
+                    spacing:{
+                        ll: '120px'
+                    }
                 }
             }
         }
     </script>
-
+   
 </head>
-<body class="bg-principal font-inter flex h-screen lg:flex lg:items-center lg:justify-center">
+<body class="bg-principal font-inter flex h-screen justify-center items-center w-screen overflow-hidden">
 
-    <div class="hidden lg:block lg:w-ww">
-            <img class="hidden lg:block" src="./img/background.svg" alt="">
+    <div class="lg:w-ww">
+        <img class="lg:block" src="./img/background.svg" alt="">
     </div>
 
-    <div class="hidden lg:block lg:flex lg:absolute lg:left-36">
+    <div class="lg:flex lg:absolute lg:left-36">
         <img class="z-40" src="./img/image 1.svg" alt="ferrero1">
     </div>
 
-    <div class="lg:hidden flex justify-center items-center w-full h-full fixed top-0 left-0 opacity-40">
+    <div class="lg:hidden flex justify-center fixed items-center w-full h-full fixed top-5 left-0 opacity-30">
         <img class="z-40" src="./img/image 1.svg" alt="ferrero1">
     </div>
 
-    <section class="bg-amarelo flex flex-col lg:w-4/12 lg:fixed lg:h-screen p-9 pl-14 flex justify-center items-center lg:">
-        <div class="pb-10 lg:pt-10 ">
-            <img class="lg:pb-10" src="./img/logo.svg" alt="logo">
+    <section class="bg-amarelo flex flex-col lg:w-4/12 h-screen lg:fixed  p-9 pl flex justify-center items-center lg:items-center w-screen">
+        <div class="pb-10 lg:pt-10 pr-">
+            <img class="lg:pb-10 lg:w-80 md:w-full" src="./img/logo.svg" alt="logo">
         </div>
-        <p class="text-2xl opacity-1 text-center lg:text-4xl lg:pr-4 opacity-100">Ferrero Rocher oferece uma experiência de sabor incomparável de contraste de camadas: uma avelã inteira no meio, um delicioso recheio cremoso de avelã, um wafer crocante coberto com chocolate e pedacinhos de avelã.</p>
-        <div class="flex justify-center  items-center lg:pt-40 pt-10">
-            <button class="bg-principal text-white lg:px-20 lg:py-5 px-20 p-5 text-2xl lg:pt-">Saiba Mais</button>
+        <div class="">
+            <p class="text-2xl opacity-1 text-center lg:text-4xl lg:pr- opacity-100">Ferrero Rocher oferece uma experiência de sabor incomparável de contraste de camadas: uma avelã inteira no meio, um delicioso recheio cremoso de avelã, um wafer crocante coberto com chocolate e pedacinhos de avelã.</p>
+        </div>
+        <div class="flex justify-center  items-center lg:pt-20 pt-10 pt-10">
+            <button class="bg-principal text-white  lg:px-24 lg:py-6 px-ll py-2 text-4xl flex items-center">Saiba Mais</button>
         </div>
     </section>
 
-    <div class="hidden lg:block lg:absolute lg:right-20">
+    <div class="lg:absolute lg:right-20">
         <img class="z-40 w-90" src="./img/image2.svg" alt="ferrero2">
     </div>
 
